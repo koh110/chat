@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "NOPE_PATH=. node --stack_trace_limit=100 -r trace src/index.js",
+    "test": "eslint src"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "trace": "^3.0.0",
+    "ws": "^3.3.3"
+  }
+}
